@@ -33,7 +33,6 @@ Include the filter in your web.xml
     <filter-name>part</filter-name>
     <filter-class>test.MultipartRequestFilter</filter-class>
   </filter>
-
   <filter-mapping>
    <filter-name>part</filter-name>
     <url-pattern>/*</url-pattern>
