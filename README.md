@@ -29,18 +29,15 @@ The recommended versions as mentioned in the wiki are shown above.
 
 Include the filter in your web.xml 
 
-> <filter>
->    <filter-name>part</filter-name>
->    <filter-class>test.MultipartRequestFilter</filter-class>
->  </filter>
->
->
->
->
->  <filter-mapping>
->    <filter-name>part</filter-name>
->    <url-pattern>/*</url-pattern>
->  </filter-mapping>
+ <filter>
+    <filter-name>part</filter-name>
+    <filter-class>test.MultipartRequestFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+   <filter-name>part</filter-name>
+    <url-pattern>/*</url-pattern>
+ </filter-mapping>
 
 
 # Contact and assistance
